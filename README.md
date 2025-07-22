@@ -1,3 +1,4 @@
+```markdown
 # LAMP Stack on AWS ECS
 
 This repository contains a LAMP (Linux, Apache, MySQL, PHP) stack deployed on AWS ECS using Terraform, with a local Docker Compose setup for development and testing.
@@ -98,4 +99,7 @@ To tear down resources:
 ```bash
 # In each Terraform folder:
 terraform destroy -auto-approve
+```
+
+```
 ```
